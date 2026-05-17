@@ -17,21 +17,21 @@ chmod +x setup.sh
 ./setup.sh
 
 ## Start Desktop
-
+```bash
 start-desktop
-
+```
 ## Stop Desktop
-
+```bash
 stop-desktop
-
+```
 ## Open Linux Container
-
+```bash
 linux
 
 ## VNC Access
-
+```bash
 start-vnc
-
+```
 Connect with:
 PHONE_IP:5901
 
@@ -52,27 +52,27 @@ Mali support varies.
 ### Black Screen
 
 Try:
-
+```bash
 termux-x11 :0 -legacy-drawing
-
+```
 ### Swapped Colors
 
 Try:
-
+```bash
 termux-x11 :0 -force-bgra
-
+```
 ### No GPU Acceleration
 
 Check:
-
+```bash
 ps aux | grep virgl
-
+```
 ### No Audio
 
 Run:
-
+```bash
 pulseaudio --start
-
+```
 ### KDE Slow
 
 XFCE recommended for phones.
