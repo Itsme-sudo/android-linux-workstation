@@ -166,16 +166,3 @@ pkg install pulseaudio-module-bluetooth
 
 ---
 
-# Suggested GitHub Repo Name
-
-```text
-termux-ubuntu-desktop
-```
-
-or
-
-```text
-android-linux-workstation
-```
-
-[1]: https://www.reddit.com/r/termux/comments/16zqs11?utm_source=chatgpt.com "VirGL cannot be run on udroid."
